@@ -18,7 +18,7 @@ export default function Home() {
           CS Student | Web Developer | AWS Enthusiast
         </p>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          I am a computer science student passionate about building web apps with Next.js and React. 
+          I am a AIML student passionate about building web apps with Next.js and React. 
           Currently exploring AWS cloud services and looking for SDE internship opportunities.
         </p>
         <div className="mt-8 flex justify-center gap-6">
