@@ -12,9 +12,6 @@ const photos = [
 export default function Home() {
   return (
     <main className="p-8 bg-gray-100 min-h-screen">
-     export default function Home() {
-  return (
-    <main className="p-8 bg-gray-100 min-h-screen">
       
       {/* Hero Section with Your Details */}
       <div className="max-w-4xl mx-auto text-center mb-12">
