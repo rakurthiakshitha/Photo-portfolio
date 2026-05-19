@@ -15,7 +15,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto text-center mb-12">
         <h1 className="text-5xl font-bold mb-4">Akshitha Rakurthi</h1>
         <p className="text-xl text-gray-700 mb-6">
-          CS Student | Web Developer | AWS Enthusiast
+          AIML Student | Web Developer | AWS Enthusiast
         </p>
         <p className="text-gray-600 max-w-2xl mx-auto">
           I am a AIML student passionate about building web apps with Next.js and React. 
