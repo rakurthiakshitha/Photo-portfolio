@@ -49,6 +49,7 @@ export default function Home() {
 
   return (
     <div className="bg-[#0c1022] text-white min-h-screen">
+      {/* Navbar */}
       <header className="fixed w-full top-0 z-50 bg-[#0c1022] px-6 lg:px-24 py-5 flex justify-between items-center">
         <a href="#" className="text-2xl font-bold">Portfolio.</a>
         <nav className="hidden md:flex gap-8">
@@ -65,6 +66,7 @@ export default function Home() {
         </nav>
       </header>
 
+      {/* Home Section with Sowmya's Photo */}
       <section id="home" className="min-h-screen flex items-center px-6 lg:px-24 pt-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center w-full">
           <div className="max-w-3xl">
@@ -84,6 +86,7 @@ export default function Home() {
             </div>
           </div>
           
+          {/* Photo Circle */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-[#0ef] shadow-lg shadow-[#0ef]/50">
               <Image 
@@ -98,6 +101,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Section */}
       <section id="about" className="px-6 lg:px-24 py-20">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4">About <span className="text-[#0ef]">Me</span></h2>
@@ -114,6 +118,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Services Section */}
       <section id="services" className="px-6 lg:px-24 py-20 bg-[#0a0e1a]">
         <h2 className="text-4xl font-bold text-center mb-16">My <span className="text-[#0ef]">Services</span></h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -130,6 +135,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Skills Section */}
       <section id="skills" className="px-6 lg:px-24 py-20">
         <h2 className="text-4xl font-bold text-center mb-16">My <span className="text-[#0ef]">Skills</span></h2>
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
@@ -150,6 +156,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Project Section */}
       <section id="project" className="px-6 lg:px-24 py-20 bg-[#0a0e1a]">
         <h2 className="text-4xl font-bold text-center mb-16">Latest <span className="text-[#0ef]">Projects</span></h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -163,6 +170,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contact Section */}
       <section id="contact" className="px-6 lg:px-24 py-20">
         <h2 className="text-4xl font-bold text-center mb-4">Contact <span className="text-[#0ef]">Me</span></h2>
         <p className="text-center text-xl mb-12 text-gray-300">Let us Work Together</p>
